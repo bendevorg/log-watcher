@@ -1,0 +1,23 @@
+{
+  "name": "log-watcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendevorg/log-watcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bendevorg/log-watcher/issues"
+  },
+  "homepage": "https://github.com/bendevorg/log-watcher#readme",
+  "dependencies": {
+    "node-cache": "^5.1.2",
+    "tail": "^2.0.4"
+  }
+}
