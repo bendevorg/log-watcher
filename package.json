@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/bendevorg/log-watcher#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.10.2",
     "node-cache": "^5.1.2",
     "tail": "^2.0.4"
   }
