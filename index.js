@@ -5,7 +5,7 @@ const Tail = require('tail').Tail;
 const retrieveLogsToWatch = require('./utils/retrieveLogsToWatch');
 const { database, saveLog } = require('./utils/database');
 const logsPath = 'logs/';
-const scanInterval = 1000;
+const scanInterval = 30000;
 
 setInterval(async () => {
   const newLogsToWatch = await retrieveLogsToWatch(logsPath);
